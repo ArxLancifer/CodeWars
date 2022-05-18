@@ -2,5 +2,5 @@
 Some Codewar Practises
 
 
->All solutions will be found on master branch
+>All solutions will be found on main branch
 
