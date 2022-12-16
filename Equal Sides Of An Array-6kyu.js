@@ -12,7 +12,6 @@ function findEvenIndex(arr)
     leftSide = arr.slice(0, i).reduce((acc, num)=>{return acc+=num},0);
     
     rightSide = arr.slice(i+1, arr.length).reduce((acc, num)=>{return acc+=num},0);
-    console.log(leftSide, rightSide)
     if(leftSide == rightSide) {
       return i;
     };
